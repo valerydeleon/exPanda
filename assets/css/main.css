@@ -1,0 +1,36 @@
+*{
+  font-family: helvetica;
+}
+#menu{
+  background: #c5f442;/*verde*/
+	color: white;
+	height: 80px;
+}
+    #menu .a{
+      color: #2a8b93;
+    }
+
+nav{
+  float: right;
+}
+    nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      padding-right: 20px;
+    }
+    nav ul li {
+      display: inline-block;
+      line-height: 80px;
+      padding-right: 20px;
+    }
+        nav ul li a {
+          display: block;
+          padding: 0 10px;
+          text-decoration: none;
+          color: #2a8b93;
+        }
+            nav ul li a:hover{
+              background: white;
+              color: #2a8b93;
+            }
